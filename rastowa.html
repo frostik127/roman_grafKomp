@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafika Rastowa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .asdf {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .podstrony {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .podstrony a {
+            padding: 12px 20px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            margin: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .podstrony a:hover {
+            background-color: #2980b9;
+        }
+
+        .qwer {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .qwer img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .zdjecia {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .fotki {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .fotki img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .fotki p {
+            font-size: 1em;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="asdf">
+    <div class="header">
+        <h1>Grafika Rastowa</h1>
+    </div>
+
+    <div class="podstrony">
+        <a href="index.html">Strona główna</a>
+        <a href="trojwymiarowa.html">Grafika Trójwymiarowa</a>
+        <a href="rastowa.html">Grafika Rastowa</a>
+        <a href="wektorowa.html">Wektorowa</a>
+        <a href="zagadnienia.html">Zagadnienia</a>
+    </div>
+
+    <div class="qwer">
+        <div class="content-text">
+            <p>Grafika rastrowa to sposób reprezentowania obrazu jako siatki pikseli. Każdy piksel ma przypisany kolor i jasność, a całość tworzy obraz. Grafika rastrowa jest używana w przypadku zdjęć, obrazów o dużej szczegółowości, jak fotografie, obrazy 3D, itp. Jednym z jej głównych ograniczeń jest utrata jakości przy powiększaniu obrazu, ponieważ rozdzielczość pikseli jest stała.</p>
+        </div>
+    </div>
+
+    <div class="zdjecia">
+        <div class="fotki">
+            <img src="rastrowa1.jpg">
+            <p>🧩 Cechy grafiki rastrowej:
+                <br><br>
+                1. Zbudowana z pikseli. Każdy obraz składa się z siatki malutkich punktów (pikseli), z których każdy ma swój kolor.
+                <br> 2. Traci jakość przy skalowaniu. Powiększenie obrazu powoduje rozmazanie i tzw. pikselizację.
+            </p>
+        </div>
+        <div class="fotki">
+            <img src="elo1.jpg">
+            <p>✅ Zalety grafiki rastrowej:
+                <br><br>
+                1. Realistyczne odwzorowanie detali. Świetnie nadaje się do zdjęć i obrazów z dużą ilością szczegółów (np. tekstury, cienie, przejścia tonalne).
+                <br><br>
+                2. Dużo różnych barw, wyraźny obraz.
+            </p>
+        </div>
+        <div class="fotki">
+            <img src="elo2.jpg">
+            <p>❌ Wady grafiki rastrowej:
+                <br><br>
+                1. Utrata jakości przy skalowaniu: Po powiększeniu obraz staje się rozmazany (pikselizacja).
+                <br><br>
+                2. Duży rozmiar plików :Zwłaszcza przy wysokiej rozdzielczości i wielu kolorach (np. zdjęcia w formacie TIFF, PNG).
+            </p>
+        </div>
+        <div class="fotki">
+            <img src="elo3.jpg">
+            <p>🎨 Programy do grafiki rastrowej:
+                <br><br>
+                1. Adobe Photoshop :Profesjonalny edytor grafiki rastrowej, używany m.in. w fotografii, projektowaniu i reklamie.
+                <br><br>
+                2. GIMP (GNU Image Manipulation Program) Darmowa alternatywa dla Photoshopa, open-source.
+                <br><br>
+                3. Paint.NET Lekki, prosty edytor graficzny dla Windows.
+            </p>
+        </div>
+        <div class="fotki">
+            <img src="UWU.jpg">
+            <p>🎯 Zastosowania grafiki rastrowej:
+                <br><br>
+                1. Strony internetowe Ikony, bannery, tła, grafiki do mediów społecznościowych (często w formacie .JPG, .PNG, .GIF).
+                <br><br>
+                2. Gry komputerowe Tekstury, sprite’y postaci, tła (choć coraz częściej łączy się z grafiką wektorową).
+            </p>
+        </div>
+        <div class="fotki">
+            <img src="qw.jpg">
+            <p>🗂️ Rozszerzenia plików grafiki wektorowej:
+                <br><br>
+                1. Rozszerzenie:.JPG/.JPEG,.PNG,.PSD,.XCF
+                <br><br>
+                2. Opis: Popularny format do zdjęć, Bezstratny format z obsługą przezroczystości, Format Photoshopa, Format GIMP-a
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

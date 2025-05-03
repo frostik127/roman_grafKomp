@@ -1,0 +1,71 @@
+	1. Grafika komputerowa
+
+Grafika komputerowa to dziedzina informatyki zajmująca się tworzeniem, przetwarzaniem, wyświetlaniem i analizowaniem obrazów za pomocą komputerów. Może obejmować obrazy 2D (dwuwymiarowe) i 3D (trójwymiarowe), a także tekstury, animacje i inne elementy wizualne.
+2. Grafika wektorowa
+
+Grafika wektorowa polega na reprezentowaniu obrazów za pomocą figur geometrycznych, takich jak linie, krzywe, prostokąty, okręgi czy inne kształty matematyczne. Obrazy wektorowe nie tracą jakości przy skalowaniu, ponieważ są definiowane przez matematyczne wzory, a nie przez siatkę pikseli.
+
+Cechy grafiki wektorowej:
+
+    Możliwość nieskończonego powiększania bez utraty jakości.
+    Zajmuje mniej miejsca na dysku w porównaniu do grafiki rastrowej.
+    Używana w projektowaniu logo, ilustracjach, ikonach, infografikach.
+    Przykłady programów: Adobe Illustrator, CorelDRAW.
+
+Zalety:
+
+    Elastyczność przy skalowaniu.
+    Idealna do projektów wymagających precyzyjnych kształtów i prostych kolorów.
+
+Wady:
+
+    Trudniejsza do użycia przy tworzeniu bardziej złożonych obrazów, takich jak fotografie.
+
+3. Grafika rastrowa (bitmapowa)
+
+Grafika rastrowa składa się z siatki pikseli (małych punktów), z których każdy ma przypisaną określoną barwę. Obrazy rastrowe, takie jak zdjęcia cyfrowe, składają się z miliona pikseli, a ich jakość zależy od rozdzielczości (liczby pikseli na cal).
+
+Cechy grafiki rastrowej:
+
+    Obrazy są reprezentowane jako zbiór pikseli.
+    Im wyższa rozdzielczość, tym większy plik.
+    Przykłady formatów: JPEG, PNG, GIF, BMP, TIFF.
+    Używana głównie w fotografii cyfrowej, edycji zdjęć.
+
+Zalety:
+
+    Idealna do przedstawiania złożonych obrazów, takich jak zdjęcia.
+    Bogata kolorystyka i detale.
+
+Wady:
+
+    Strata jakości przy skalowaniu (rozciąganie obrazu powoduje utratę ostrości).
+    Duży rozmiar plików w przypadku wysokiej rozdzielczości.
+
+4. Grafika trójwymiarowa (3D)
+
+Grafika 3D to technika tworzenia obrazów i animacji w przestrzeni trójwymiarowej, gdzie obiekty mają długość, szerokość i głębokość. Grafika 3D jest używana w filmach, grach komputerowych, symulacjach, projektowaniu produktów czy architekturze.
+
+Cechy grafiki 3D:
+
+    Obiekty są modelowane w trójwymiarowej przestrzeni.
+    Umożliwia manipulację obiektami w różnych perspektywach.
+    Wymaga zaawansowanego oprogramowania i technologii renderowania do tworzenia finalnych obrazów.
+    Przykłady programów: Blender, Autodesk Maya, 3ds Max.
+
+Zalety:
+
+    Realistyczne wizualizacje i animacje.
+    Wysoka interaktywność (np. w grach komputerowych).
+    Możliwość tworzenia animacji i symulacji.
+
+Wady:
+
+    Czasochłonny proces renderowania.
+    Wymaga dużej mocy obliczeniowej i specjalistycznego oprogramowania.
+
+Podsumowanie
+
+    Grafika wektorowa to świetna opcja do tworzenia logo, ikon, wykresów, ponieważ pozwala na elastyczne skalowanie bez utraty jakości.
+    Grafika rastrowa jest idealna do pracy z fotografiami i złożonymi obrazami, ale jej jakość może spadać przy zmianie rozmiaru.
+    Grafika 3D umożliwia tworzenie realistycznych modeli i animacji, wykorzystywanych w różnych dziedzinach, od gier po film.
